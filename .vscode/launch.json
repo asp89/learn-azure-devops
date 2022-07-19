@@ -1,0 +1,17 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Lambda-SNS",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build-Lambda-SNS",
+            "program": "${workspaceFolder}/Lambda-Functions/SnsProcessor/test/bin/Debug/net6.0/SnsProcessor.Tests.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/Lambda-Functions/SnsProcessor/test/SnsProcessor.Tests",
+            "console": "externalTerminal",
+            "stopAtEntry": false,
+            "internalConsoleOptions": "openOnSessionStart"
+        },
+    ]
+}
